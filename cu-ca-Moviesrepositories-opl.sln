@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cu-ca-Moviesrepositories-opl.Core", "cu-ca-Moviesrepositories-opl.Core\cu-ca-Moviesrepositories-opl.Core.csproj", "{40A794B1-3E95-4AF5-9722-D7D9434280AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cu-ca-Moviesrepositories-opl.Web", "cu-ca-Moviesrepositories-opl.Web\cu-ca-Moviesrepositories-opl.Web.csproj", "{96B6893B-E2CE-4714-AE19-A46CF5C5C775}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40A794B1-3E95-4AF5-9722-D7D9434280AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A794B1-3E95-4AF5-9722-D7D9434280AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A794B1-3E95-4AF5-9722-D7D9434280AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A794B1-3E95-4AF5-9722-D7D9434280AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B6893B-E2CE-4714-AE19-A46CF5C5C775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B6893B-E2CE-4714-AE19-A46CF5C5C775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B6893B-E2CE-4714-AE19-A46CF5C5C775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B6893B-E2CE-4714-AE19-A46CF5C5C775}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EE74187-B90A-4CF0-BFE8-A1B35AA5BD4A}
+	EndGlobalSection
+EndGlobal

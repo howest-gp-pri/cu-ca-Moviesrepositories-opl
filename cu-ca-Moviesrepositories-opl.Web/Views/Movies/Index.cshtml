@@ -1,0 +1,19 @@
+﻿@model MoviesIndexViewModel
+
+<div class="row">
+    <h4>@Model.PageTitle</h4>
+    @foreach (var movie in Model.Movies)
+    {
+        <div class="col col-lg-3 mx-auto">
+            <div class="card" style="width: 18rem;">
+                <img src="/images/@movie.Image" class="card-img-top" alt="@movie.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@movie.Name</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">@movie.Company</h6>
+                    <a asp-controller="Movies" asp-action="Info" asp-route-id="@movie.Id" class="btn btn-primary">Info</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
